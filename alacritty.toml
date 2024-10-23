@@ -1,0 +1,41 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/themes/tokyo_night.toml"
+]
+live_config_reload = false 
+
+[window]
+dynamic_padding = true
+padding.x=10
+padding.y=10
+
+decorations = "Buttonless"
+
+opacity = 0.7
+blur = true
+
+startup_mode = "Maximized"
+dynamic_title = true
+decorations_theme_variant = "None"
+
+option_as_alt = "Both"
+
+[font]
+normal.family = "FiraCode Nerd Font" 
+normal.style = "Regular"
+size = 13.5
+builtin_box_drawing = true
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",|`:\"'()[]{}<>\t"
+
+#[cursor]
+#style = "Block" 
+#blinking = "On""
+#vi_mode_style = "Beam"
+#blink_interval = 750
+#unfocused_hollow = true
+
+#[terminal]
+#shell = "/bin/zsh"
